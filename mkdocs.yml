@@ -1,0 +1,103 @@
+site_name: Mokh.Rofiudin.com
+site_url: https://mokh.rofiudin.com
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: id
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/white-balance-sunny 
+        name: Switch to dark mode
+      primary: black
+      accent: indigo 
+    - scheme: slate 
+      toggle:
+        icon: fontawesome/solid/moon
+        name: Switch to light mode
+      primary: black
+      accent: amber
+
+nav:
+  - Home:
+    - index.md
+  - Tulisan:
+    - menulis/index.md
+
+plugins:
+  - social
+  - search
+  - glightbox
+  - blog:
+      blog_toc: true
+      blog_dir: menulis
+      post_date_format: long
+      post_url_format: "{slug}"
+      post_excerpt: required
+      archive_name: Arsip
+      archive_date_format: MMMM yyyy
+      archive_url_date_format: yyyy/MM
+      archive_url_format: "arsip/{date}"
+      archive_toc: true
+      categories_name: Kategori
+      categories_url_format: "tentang/{slug}"
+      categories_toc: true
+      pagination_url_format: "halman/{page}"
+      draft_if_future_date: true
+  - tags:
+      tags_file: tags.md
+
+extra:
+  consent:
+    title: Penggunaan Cookie
+    description: >- 
+      Kami menggunakan `cookie` untuk mengenali kunjungan Anda yang berulang dan preferensi, 
+      serta untuk mengukur efektivitas dokumentasi kami dan apakah pengguna 
+      menemukan apa yang mereka cari. 
+      Dengan persetujuan Anda, 
+      Anda membantu kami membuat dokumentasi kami menjadi lebih baik.
+  analytics:
+    provider: google
+    property: G-2PR0LQGDF8
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mrofi
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/m_rofi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/mokhamadrofiudin/
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+copyright: |
+  &copy; 2024 - <a href="https://mokh.rofiudin.com"  target="_blank" rel="noopener">Mokhamad Rofiudin</a>
