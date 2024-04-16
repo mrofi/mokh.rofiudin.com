@@ -1,6 +1,6 @@
 ---
 slug: pentingnya-mengikuti-versi-terbaru-bahasa-pemrograman
-date: 2012-04-04 00:00:00
+date: 2020-05-26 16:12:19
 comments: true
 authors:
   - mrofi
