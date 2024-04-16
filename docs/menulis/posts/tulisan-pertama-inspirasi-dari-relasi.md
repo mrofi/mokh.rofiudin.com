@@ -1,6 +1,6 @@
 ---
 slug: tulisan-pertama-inspirasi-dari-relasi
-date: 2010-12-03 09:24:33
+date: 2010-12-12 00:00:00
 comments: true
 authors:
   - mrofi
