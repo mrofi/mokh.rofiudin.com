@@ -16,7 +16,10 @@ tags:
 
 <!-- more -->
 
-![Gus Dur, Al-Qur'an dan Pornografi](../assets/images/gus-dur-al-quran-dan-pornografi-20171206071947_thumbnail1280x_.png)
+<figure markdown="span">
+  ![Gus Dur, Al-Qur'an dan Pornografi](../assets/images/gus-dur-al-quran-dan-pornografi-20171206071947_thumbnail1280x_.png)
+  <figcaption>Foto: Gus Dur</figcaption>
+</figure>
 
 <p>Abu Nawas pun digeret menghadap Khalifah. Kini, ia menjadi pesakitan. "Hai Abu Nawas, benar kamu berpendapat tidak ruku'' dan sujud dalam salat?" tanya Khalifah dengan keras.</p>
 <p>Abu Nawas menjawab dengan tenang, "Benar, Saudaraku."</p>
