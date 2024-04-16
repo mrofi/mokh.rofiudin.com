@@ -4,8 +4,6 @@ theme:
   name: material
   custom_dir: overrides
   features:
-    - navigation.instant
-    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
     - navigation.sections
