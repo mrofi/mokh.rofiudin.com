@@ -37,6 +37,8 @@ nav:
     - index.md
   - Tulisan:
     - menulis/index.md
+  - Topik:
+    - topik/index.md
 
 plugins:
   - social
@@ -59,7 +61,7 @@ plugins:
       pagination_url_format: "halman/{page}"
       draft_if_future_date: true
   - tags:
-      tags_file: tags.md
+      tags_file: topik/index.md
 
 extra:
   consent:

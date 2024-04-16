@@ -1,6 +1,7 @@
 ---
 hide: 
   - feedback
+  - navigation
 ---
 # Selamat Datang di Mokh.Rofiudin.com
 

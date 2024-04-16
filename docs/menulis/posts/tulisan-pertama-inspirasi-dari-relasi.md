@@ -6,6 +6,8 @@ authors:
   - mrofi
 categories:
   - Cerita
+tags:
+  - Random
 ---
 
 # Tulisan Pertama, Inspirasi dari Relasi
